@@ -5,15 +5,11 @@
     <Authors>FINT</Authors>
     <Company>FINT</Company>
     <Description>FINT Model Utdanning</Description>
-    <Version>0.0.1</Version>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
+    <Version>$(VERSION)</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FINT.Model.Felles" Version="0.0.1" />
+    <PackageReference Include="FINT.Model.Felles" Version="$(VERSION)" />
   </ItemGroup>
 
 </Project>
