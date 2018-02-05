@@ -5,11 +5,11 @@
     <Authors>FINT</Authors>
     <Company>FINT</Company>
     <Description>FINT Model Utdanning</Description>
-    <Version>$(VERSION)</Version>
+    <Version>$([System.IO.File]::ReadAllText('version.txt'))</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FINT.Model.Felles" Version="$(VERSION)" />
+    <PackageReference Include="FINT.Model.Felles" Version="$([System.IO.File]::ReadAllText('version.txt'))" />
   </ItemGroup>
 
 </Project>
