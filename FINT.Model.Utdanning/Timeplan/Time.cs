@@ -7,14 +7,21 @@ using System.Collections.Generic;
 
 using FINT.Model.Felles.Kompleksedatatyper;
 
-namespace FINT.Model.Utdanning.Basisklasser
+namespace FINT.Model.Utdanning.Timeplan
 {
-	public abstract class Gruppe {
+	public class Time {
+		public enum Relasjonsnavn
+        {
+			UNDERVISNINGSGRUPPE,
+			UNDERVISNINGSFORHOLD,
+			ROM
+        }
+        
 	
 		public string Beskrivelse { get; set; }
 		public string Navn { get; set; }
-		public List<Periode> Periode { get; set; }
 		public Identifikator SystemId { get; set; }
+		public Periode Tidsrom { get; set; }
 		
 	}
 }

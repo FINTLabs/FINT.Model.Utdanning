@@ -1,4 +1,8 @@
+// Built from tag v2.4.0-rc-4
+
 using System;
+using System.Collections.Generic;
+
 
 
 using FINT.Model.Felles.Kompleksedatatyper;
@@ -6,14 +10,9 @@ using FINT.Model.Felles.Kompleksedatatyper;
 namespace FINT.Model.Utdanning.Basisklasser
 {
 	public abstract class Utdanningsforhold {
-		public enum Relasjonsnavn
-        {
-			MEDLEMSKAP
-        }
-        
 	
-		public Identifikator systemId { get; set; }
-		public string kommentar { get; set; }
+		public string Beskrivelse { get; set; }
+		public Identifikator SystemId { get; set; }
 		
 	}
 }

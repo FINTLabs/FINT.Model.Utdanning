@@ -5,15 +5,17 @@ using System.Collections.Generic;
 
 
 
-using FINT.Model.Felles.Basisklasser;
+using FINT.Model.Utdanning.Basisklasser;
 
-namespace FINT.Model.Utdanning.Kodeverk
+namespace FINT.Model.Utdanning.Vurdering
 {
-	public class Karakterskala : Begrep {
+	public class Eksamensgruppe : Gruppe {
 		public enum Relasjonsnavn
         {
+			FAG,
+			GREPREFERANSE,
 			VIGOREFERANSE,
-			VERDI
+			MEDLEMSKAP
         }
         
 	

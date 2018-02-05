@@ -1,4 +1,8 @@
+// Built from tag v2.4.0-rc-4
+
 using System;
+using System.Collections.Generic;
+
 
 
 using FINT.Model.Felles.Kompleksedatatyper;
@@ -6,10 +10,16 @@ using FINT.Model.Felles.Kompleksedatatyper;
 namespace FINT.Model.Utdanning.Kompleksedatatyper
 {
 	public class Fravar {
+		public enum Relasjonsnavn
+        {
+			FRAVARSTYPE
+        }
+        
 	
-		public bool erFravaretGyldig { get; set; }
-		public string kommentar { get; set; }
-		public Periode gjelderPeriode { get; set; }
+		public bool Dokumentert { get; set; }
+		public bool ForesPaVitnemal { get; set; }
+		public Periode GjelderPeriode { get; set; }
+		public string Kommentar { get; set; }
 		
 	}
 }

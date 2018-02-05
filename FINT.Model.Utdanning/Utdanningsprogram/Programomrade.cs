@@ -1,0 +1,25 @@
+// Built from tag v2.4.0-rc-4
+
+using System;
+using System.Collections.Generic;
+
+
+
+using FINT.Model.Utdanning.Basisklasser;
+
+namespace FINT.Model.Utdanning.Utdanningsprogram
+{
+	public class Programomrade : Gruppe {
+		public enum Relasjonsnavn
+        {
+			UTDANNINGSPROGRAM,
+			FAG,
+			TRINN,
+			GREPREFERANSE,
+			VIGOREFERANSE,
+			MEDLEMSKAP
+        }
+        
+	
+	}
+}
