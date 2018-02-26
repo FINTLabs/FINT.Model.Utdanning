@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-1
+// Built from tag v0.99.0
 
 using System;
 using System.Collections.Generic;
@@ -12,11 +12,11 @@ namespace FINT.Model.Utdanning.Elev
 	public class Medlemskap {
 		public enum Relasjonsnavn
         {
-			MEDLEM,
-			FORTLOPENDEKARATER,
-			GRUPPE,
-			ENDELIGKARAKTER,
-			FRAVAR
+			FRAVAR,
+			FORTLOPENDEVURDERING,
+			ENDELIGVURDERING,
+			DELTAKER,
+			GRUPPE
         }
         
 	
