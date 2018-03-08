@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 using System;
 using System.Collections.Generic;
@@ -12,6 +12,7 @@ namespace FINT.Model.Utdanning.Utdanningsprogram
 	public class Utdanningsprogram : Gruppe {
 		public enum Relasjonsnavn
         {
+			SKOLE,
 			PROGRAMOMRADE,
 			GREPREFERANSE,
 			VIGOREFERANSE,
