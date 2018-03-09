@@ -1,4 +1,4 @@
-// Built from tag v0.99.9
+// Built from tag v2.6.0-beta-2
 
 using System;
 using System.Collections.Generic;
@@ -16,7 +16,6 @@ namespace FINT.Model.Utdanning.Timeplan
         }
         
 	
-		public int Kapasitet { get; set; }
 		public string Navn { get; set; }
 		public Identifikator SystemId { get; set; }
 		
