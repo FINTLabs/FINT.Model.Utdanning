@@ -9,17 +9,15 @@ using FINT.Model.Felles.Kompleksedatatyper;
 
 namespace FINT.Model.Utdanning.Elev
 {
-	public class Medlemskap {
+	public class Skoleressurs {
 		public enum Relasjonsnavn
         {
-			MEDLEM,
-			FORTLOPENDEVURDERING,
-			GRUPPE,
-			ENDELIGVURDERING,
-			FRAVAR
+			PERSONALRESSURS,
+			UNDERVISNINGSFORHOLD
         }
         
 	
+		public Identifikator Feidenavn { get; set; }
 		public Identifikator SystemId { get; set; }
 		
 	}
