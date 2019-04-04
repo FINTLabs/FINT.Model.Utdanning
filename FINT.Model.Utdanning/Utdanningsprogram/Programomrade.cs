@@ -1,4 +1,4 @@
-// Built from tag v3.1.0
+// Built from tag v3.2.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -13,6 +13,7 @@ namespace FINT.Model.Utdanning.Utdanningsprogram
 		public enum Relasjonsnavn
         {
 			UTDANNINGSPROGRAM,
+			ELEVFORHOLD,
 			FAG,
 			TRINN,
 			GREPREFERANSE,
