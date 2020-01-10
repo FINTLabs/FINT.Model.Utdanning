@@ -1,4 +1,4 @@
-// Built from tag v3.3.0
+// Built from tag v3.4.0-rc-1
 
 using System;
 
@@ -7,6 +7,9 @@ namespace FINT.Model.Utdanning.Utdanningsprogram
 	public enum UtdanningsprogramActions
     {
 	
+	GET_ARSTRINN,
+	GET_ALL_ARSTRINN,
+	UPDATE_ARSTRINN,
 	GET_PROGRAMOMRADE,
 	GET_ALL_PROGRAMOMRADE,
 	UPDATE_PROGRAMOMRADE,
@@ -15,9 +18,6 @@ namespace FINT.Model.Utdanning.Utdanningsprogram
 	UPDATE_SKOLE,
 	GET_UTDANNINGSPROGRAM,
 	GET_ALL_UTDANNINGSPROGRAM,
-	UPDATE_UTDANNINGSPROGRAM,
-	GET_ARSTRINN,
-	GET_ALL_ARSTRINN,
-	UPDATE_ARSTRINN
+	UPDATE_UTDANNINGSPROGRAM
     }
 }
