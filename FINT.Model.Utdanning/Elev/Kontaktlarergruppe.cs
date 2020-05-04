@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -13,9 +13,12 @@ namespace FINT.Model.Utdanning.Elev
 		public enum Relasjonsnavn
         {
 			BASISGRUPPE,
-			SKOLE,
 			ELEVFORHOLD,
+			TERMIN,
+			SKOLE,
+			SKOLEAR,
 			UNDERVISNINGSFORHOLD,
+			GRUPPEMEDLEMSKAP,
 			GREPREFERANSE,
 			VIGOREFERANSE,
 			MEDLEMSKAP

@@ -7,19 +7,13 @@ using System.Collections.Generic;
 
 using FINT.Model.Utdanning.Basisklasser;
 
-namespace FINT.Model.Utdanning.Utdanningsprogram
+namespace FINT.Model.Utdanning.Vurdering
 {
-	public class Programomrade : Gruppe {
+	public class Eksamensgruppemedlemskap : Gruppemedlemskap {
 		public enum Relasjonsnavn
         {
 			ELEVFORHOLD,
-			UTDANNINGSPROGRAM,
-			FAG,
-			TRINN,
-			GRUPPEMEDLEMSKAP,
-			GREPREFERANSE,
-			VIGOREFERANSE,
-			MEDLEMSKAP
+			EKSAMENSGRUPPE
         }
         
 	

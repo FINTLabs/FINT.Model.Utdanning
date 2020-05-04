@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -12,11 +12,14 @@ namespace FINT.Model.Utdanning.Timeplan
 	public class Undervisningsgruppe : Gruppe {
 		public enum Relasjonsnavn
         {
-			FAG,
-			SKOLE,
 			ELEVFORHOLD,
+			FAG,
+			TERMIN,
+			SKOLE,
+			SKOLEAR,
 			UNDERVISNINGSFORHOLD,
 			TIME,
+			GRUPPEMEDLEMSKAP,
 			GREPREFERANSE,
 			VIGOREFERANSE,
 			MEDLEMSKAP

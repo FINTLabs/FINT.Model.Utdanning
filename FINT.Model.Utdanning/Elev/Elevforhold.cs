@@ -1,10 +1,11 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 using System;
 using System.Collections.Generic;
 
 
 
+using FINT.Model.Felles.Kompleksedatatyper;
 using FINT.Model.Utdanning.Basisklasser;
 
 namespace FINT.Model.Utdanning.Elev
@@ -12,19 +13,27 @@ namespace FINT.Model.Utdanning.Elev
 	public class Elevforhold : Utdanningsforhold {
 		public enum Relasjonsnavn
         {
-			BASISGRUPPE,
 			ELEV,
 			KATEGORI,
 			SKOLE,
-			EKSAMENSGRUPPE,
-			KONTAKTLARERGRUPPE,
-			PROGRAMOMRADE,
-			UNDERVISNINGSGRUPPE,
+			BASISGRUPPE,
+			BASISGRUPPEMEDLEMSKAP,
+			UNDERVISNINGSGRUPPEMEDLEMSKAP,
 			VURDERING,
+			KONTAKTLARERGRUPPE,
+			EKSAMENSGRUPPEMEDLEMSKAP,
+			KONTAKTLARERGRUPPEMEDLEMSKAP,
+			PROGRAMOMRADE,
 			FRAVAR,
+			PROGRAMOMRADEMEDLEMSKAP,
+			EKSAMENSGRUPPE,
+			UNDERVISNINGSGRUPPE,
 			MEDLEMSKAP
         }
         
 	
+		public Periode Gyldighetsperiode { get; set; }
+		public bool? Hovedskole { get; set; }
+		
 	}
 }

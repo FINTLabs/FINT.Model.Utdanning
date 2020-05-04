@@ -1,4 +1,4 @@
-// Built from tag v3.4.0
+// Built from tag v3.5.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -12,10 +12,13 @@ namespace FINT.Model.Utdanning.Vurdering
 	public class Eksamensgruppe : Gruppe {
 		public enum Relasjonsnavn
         {
+			ELEVFORHOLD,
 			FAG,
 			SKOLE,
-			ELEVFORHOLD,
+			TERMIN,
+			SKOLEAR,
 			UNDERVISNINGSFORHOLD,
+			GRUPPEMEDLEMSKAP,
 			GREPREFERANSE,
 			VIGOREFERANSE,
 			MEDLEMSKAP
